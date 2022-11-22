@@ -1,1 +1,17 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  position: relative;
+  width: 375px;
+  height: 5219px;
+}
+
+header {
+  background-image: url("./assets/images/photos/image-header.jpg");
+  background-size: contain;
+  max-width: 100%;
+  /*height: 100%;*/
+}
+
+.header_title {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+}/*# sourceMappingURL=style.css.map */

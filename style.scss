@@ -1,0 +1,34 @@
+$font_barlow: 'Barlow', sans-serif;
+
+$font_fraunces: 'Fraunces', serif;
+
+$col_prim_red: hsl(7, 99%, 70%);
+$col_prim_yel: hsl(51,100%,49%);
+$col_prim_des_dark_cyan: hsl(167, 40%, 24%);
+$col_prim_dark_blue: hsl(198,62%,26%);
+$col_prim_dark_mod_cyan: hsl(168,34%,41%);
+
+$col_neut_very_dark_des_blue: hsl(212,27%,19%);
+$col_neut_very_dark_gra_blue: hsl(213,9%,39%);
+$col_neut_dark_gra_blue: hsl(232,10%,55%);
+$col_neut_gra_blue: hsl(210,4%,67%);
+$col_neut_white: hsl(0,0%,100%);
+
+body{
+    position: relative;
+    width: 375px;
+    height: 5219px;
+}
+
+header{
+    background-image: url("./assets/images/photos/image-header.jpg") ;
+    background-size: contain;
+    max-width: 100%;
+    /
+    
+}
+
+.header_title{
+    font-family: $font_barlow;
+    font-weight: 900;
+}
