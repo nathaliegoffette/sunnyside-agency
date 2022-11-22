@@ -154,8 +154,11 @@ header{
 }
 
 .article3{
-    height:150vh;
-    display:flex;
+    background-image: url(./assets/images/photos/image-photography.jpg);
+    background-size: 190%;
+    position:absolute;
+    top: 360vh;
+/*    display:flex;
     background-image: url(./assets/images/photos/image-photography.jpg);
     background-size:190%;
     background-position: top;
@@ -180,5 +183,5 @@ header{
     h3{
     color:$col_prim_des_dark_cyan;
     text-align: center;
-    }
+    }*/
 }
