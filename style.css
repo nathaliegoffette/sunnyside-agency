@@ -115,6 +115,7 @@ header {
   margin: 0;
   padding: 0;
   max-width: 100%;
+  min-width: 100%;
   max-height: auto;
 }
 
@@ -122,6 +123,7 @@ header {
   margin: 0;
   padding: 0;
   max-width: 100%;
+  min-width: 100%;
   max-height: auto;
 }
 
@@ -151,6 +153,7 @@ header {
   background-position: top;
   background-repeat: no-repeat;
   margin: 0;
+  min-width: 100%;
   /*.texte{
   flex-direction: column;
   justify-content: flex-end;
@@ -181,6 +184,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   margin: 0;
+  min-width: 100%;
   /*.texte{
    position: relative;
    top:42vw;
