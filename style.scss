@@ -16,8 +16,8 @@ $col_neut_white: hsl(0,0%,100%);
 
 body{
     position: relative;
-    width: 320px;
-    height: 4000px;
+    width: 100vw;
+    /*height: 200vh;*/
     margin:0;
 }
 
@@ -31,7 +31,7 @@ main{
 
 h1{
     font-family: $font_fraunces ;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 900;
 }
 
@@ -76,12 +76,12 @@ p{
 
 header{
     position:relative;
-    height:80vh;
+    height:120vw;
     background-image: url("./assets/images/photos/image-header.jpg") ;
     background-size: 240%;
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: 0vh;
+    background-position-y: 0vw;
     max-width: 100%;
     margin:0;
 }
@@ -90,9 +90,9 @@ header{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 4vh;
-    margin-right:4vh;
-    padding-top: 4vh;
+    margin-left: 4vw;
+    margin-right:4vw;
+    padding-top: 4vw;
     
 }
 
@@ -111,13 +111,13 @@ header{
 
 .header_h1{
    position:absolute;
-   top: 25vh;
-    font-family: $font_fraunces ;
-    font-size: 30px;
-    font-weight: 900;
+   top: 25vw;
+    /*font-family: $font_fraunces ;
+    font-size: 3rem;
+    font-weight: 900;*/
     text-transform: uppercase;
     color: $col_neut_white;
-    letter-spacing: 0.8rem;
+    letter-spacing: 1rem;
     max-width:100%;
     margin:0;
     text-align:center;
@@ -127,7 +127,8 @@ header{
 
 .header_arrow{
     position:absolute;
-    top:50vh;
+    top:50vw;
+    margin-top: 40%;
    margin-left: 43%;
    margin-right: 50%;
    
@@ -147,25 +148,43 @@ header{
     max-height:auto;
 }
 
+.article1{
+    height:30vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+
+.article2{
+    height:30vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+
 .article3{
-    height:95vh;
+    position:relative;
+    height:120vw;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     flex-wrap: wrap;
     background-image: url(./assets/images/photos/image-graphic-design.jpg);
     background-size:190%;
     background-position: top;
     background-repeat: no-repeat;
     margin:0;
-    z-index:1;
+   
     
 
-    .texte{
-    align-items: flex-end;
-     position: relative;
-     top:54vh;
-     z-index:4;   
-    }
+    /*.texte{
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 65vw;
+    position: relative;
+    top:24vh;
+    }*/
 
     h2{
     color:$col_prim_des_dark_cyan;
@@ -182,20 +201,21 @@ header{
 }
 
 .article4{
-    height:95vh;
+    height:120vw;
     display:flex;
     flex-direction: column;
+    justify-content: flex-end;
     background-image: url(./assets/images/photos/image-photography.jpg);
-    background-size:190%;
+    background-size: 190%;
     background-position: center;
     background-repeat: no-repeat;
     margin:0;
     
 
-    .texte{
+    /*.texte{
      position: relative;
-     top:54vh;
-    }
+     top:42vw;
+    }*/
 
     h2{
     color:$col_prim_des_dark_cyan;
@@ -232,8 +252,8 @@ header{
     }
 
     h5{
-        margin-top:-2vh;
-        margin-bottom: 10vh;
+        margin-top:-2vw;
+        margin-bottom: 10vw;
     }
 }
 
@@ -250,7 +270,7 @@ header{
 }
 
 .main_titledown{
-    height: 45vh;
+    height: 45vw;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -260,8 +280,9 @@ header{
 
     img{
         margin-top: 15vw;
-        margin-left: 15vw;
-        max-width: 30vh;
+        margin-left: 20%;
+        margin-right: 20%;
+        
     }
 
     ul{
@@ -271,7 +292,7 @@ header{
         max-width: 100%;
         font-family: $font_barlow;
         font-weight: 600;
-        font-size: 0.8rem;
+        font-size: 1rem;
         color:$col_prim_des_dark_cyan;
     }
 
@@ -300,7 +321,8 @@ footer{
     
 
     img{
-        margin-bottom: 10vh;;
+        margin-top:10vw;
+        margin-bottom: 10vw;
     }
 }
 
