@@ -34,6 +34,19 @@ h3 {
   margin: 8vw 4vw 10vw 4vw;
 }
 
+h4 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+h5 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: hsl(210deg, 4%, 67%);
+}
+
 p {
   font-family: "Barlow", sans-serif;
   color: #808397;
@@ -167,4 +180,14 @@ header {
 .testimonials img {
   width: 14vw;
   border-radius: 7vw;
+}
+.testimonials .main_h3--lightgrey {
+  color: #A7AAAD;
+}
+.testimonials .p_testimonials {
+  color: hsl(213deg, 9%, 39%);
+}
+.testimonials h5 {
+  margin-top: -2vh;
+  margin-bottom: 10vh;
 }/*# sourceMappingURL=style.css.map */
