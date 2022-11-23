@@ -105,7 +105,7 @@ header{
 
 }
 
-.hamburger:hover .info{
+.header_logos:hover .header_nav{
     opacity:1;
     }
 
@@ -151,14 +151,14 @@ header{
 }
 
 .article1{
-    height:30vh;
+    height:25vh;
     display:flex;
     flex-direction:column;
     justify-content: flex-end;
 }
 
 .article2{
-    height:30vh;
+    height:25vh;
     display:flex;
     flex-direction:column;
     justify-content: flex-end;
@@ -273,16 +273,17 @@ header{
 }
 
 .main_titledown{
-    height: 45vw;
+    height: 40vw;
     width:100%;
     display:flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #90D4C6;
     background-size: contain;
     max-width: 100%;
 
     img{
-        margin-top: 15vw;
+        margin-top: 10vw;
         margin-left: 20%;
         margin-right: 20%;
         
@@ -297,11 +298,12 @@ header{
         font-weight: 600;
         font-size: 1rem;
         color:$col_prim_des_dark_cyan;
+        
     }
 
     li{
         margin-left:8vw;
-        margin-top:10vh;
+        margin-top:5vh;
     }
 
     ul li{
