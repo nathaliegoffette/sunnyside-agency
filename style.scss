@@ -16,11 +16,18 @@ $col_neut_white: hsl(0,0%,100%);
 
 body{
     position: relative;
-    
     width: 320px;
     height: 5219px;
     margin:0;
 }
+
+main{
+    display:flex;
+    align-items:column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 h1{
     font-family: $font_fraunces ;
@@ -53,6 +60,7 @@ p{
     font-size: 0.8rem;
     line-height: 1.3rem;
 }
+
 header{
     position:relative;
     height:80vh;
@@ -74,8 +82,6 @@ header{
     
 }
 
-
-
 .header_nav ul{
     justify-content: flex-end;
     list-style: none;
@@ -84,8 +90,6 @@ header{
     opacity:0;
 
 }
-
-
 
 .header_h1{
    position:absolute;
@@ -126,17 +130,23 @@ header{
 }
 
 .article3{
-    height:180vh;
+    height:95vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-image: url(./assets/images/photos/image-graphic-design.jpg);
     background-size:190%;
     background-position: top;
     background-repeat: no-repeat;
     margin:0;
+    z-index:1;
     
 
     .texte{
+    align-items: flex-end;
      position: relative;
-     top:58vh;   
+     top:54vh;
+     z-index:4;   
     }
 
     h2{
@@ -154,8 +164,9 @@ header{
 }
 
 .article4{
-    position:absolute;
-    height:180vh;
+    height:95vh;
+    display:flex;
+    flex-direction: column;
     background-image: url(./assets/images/photos/image-photography.jpg);
     background-size:190%;
     background-position: center;
@@ -163,9 +174,9 @@ header{
     margin:0;
     
 
-    .texte3{
+    .texte{
      position: relative;
-     top: 1vh;   
+     top:54vh;
     }
 
     h2{
@@ -182,7 +193,14 @@ header{
     }
 }
 
-.emily{
-    size:5vh;
-    border-radius:2.5vh;
+.testimonials{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        width:14vw;
+        border-radius:7vw;   
+    }
+
 }
